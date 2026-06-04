@@ -108,12 +108,12 @@ const handleRating = (rating) => {
       )}
     </CardContent>
       <CardActions>
-        <Button size="small" onClick={() => setIsFlipped(!isFlipped)}>Flip</Button>
+        <Button size="small" variant="contained" onClick={() => setIsFlipped(!isFlipped)}>Flip</Button>
        {isFlipped && (
         <>
-        <Button size="small" color="error" onClick={() => handleRating(1)}>Hard</Button>
-        <Button size="small" color="warning" onClick={() => handleRating(3)}>Good</Button>
-        <Button size="small" color="success" onClick={() => handleRating(5)}>Easy</Button>
+        <Button size="small" variant="contained" color="error" onClick={() => handleRating(1)}>Hard</Button>
+        <Button size="small" variant="contained" color="warning" onClick={() => handleRating(3)}>Good</Button>
+        <Button size="small" variant="contained" color="success" onClick={() => handleRating(5)}>Easy</Button>
         </>
        )}
        
