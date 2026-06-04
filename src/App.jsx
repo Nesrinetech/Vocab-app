@@ -61,7 +61,9 @@ const handleRating = (rating) => {
   }}
   >
 
-  
+  {isFlipped && (
+<Typography variant="h5">Rate the card to go to the next one</Typography>
+  )}
 
 
  
