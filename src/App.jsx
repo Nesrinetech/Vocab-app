@@ -67,7 +67,7 @@ const handleRating = (rating) => {
 
 
  
-  <Card sx={{ width: 400, padding: 2, justifyContent: 'center'}}>
+  <Card sx={{ width: {xs: '90%', sm: 400 }, padding: 2, justifyContent: 'center'}}>
   <CardContent>
     {/* <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
       The Word
